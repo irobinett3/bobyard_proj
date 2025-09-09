@@ -3,6 +3,16 @@
 
 ## Quick Start
 
+Requirements
+
+Python 3.11.x
+
+Node.js 18.x LTS and npm 9+
+
+PostgreSQL 14+
+
+macOS/Windows/Linux
+
 ### Clone the repo
 ```bash
 git clone https://github.com/irobinett3/bobyard_proj.git
