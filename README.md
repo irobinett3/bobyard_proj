@@ -25,7 +25,7 @@ cd backend
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py seed_comments --file seed/comments.json   # optional
+python manage.py seed_comments --file seed/comments.json   # optional, adds data from comments.json
 python manage.py runserver
 ```
 Runs at: http://localhost:8000/api/
