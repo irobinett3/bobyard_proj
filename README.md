@@ -7,6 +7,7 @@
 ```bash
 git clone https://github.com/irobinett3/bobyard_proj.git
 cd bobyard_proj
+```
 
 ### Backend
 ```bash
