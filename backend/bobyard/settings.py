@@ -81,6 +81,13 @@ STATIC_URL = 'static/'
 # ids
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+
+LOGGING = {
+  "version": 1,
+  "handlers": {"console": {"class": "logging.StreamHandler"}},
+  "root": {"handlers": ["console"], "level": "DEBUG"},
+}
+
 # drf
 REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "comments.pagination.CommentCursorPagination",
